@@ -1,5 +1,6 @@
 <!doctype html>
 <html>
+
 <head>
     <title>Final Portfolio</title>
     <!--link rel="stylesheet" href="style.css"-->
@@ -7,14 +8,14 @@
 </head>
 <style>
     body {
-      background-color: rgb(230, 244, 250);
+        background-color: rgb(230, 244, 250);
     }
-    
+
     h1 {
-      text-align: center;
-      color: rgb(0, 0, 0);
-      margin-left: 20px;
-    } 
+        text-align: center;
+        color: rgb(0, 0, 0);
+        margin-left: 20px;
+    }
 
     p {
         text-align: left;
@@ -30,62 +31,181 @@
     .sketch-row {
         display: flex;
         flex-wrap: wrap;
-    }  
+    }
 
     .sketch {
-        width:25rem;
-        height:25rem;
+        width: 25rem;
+        height: 25rem;
     }
-    .c3{
-        font-weight : bold; 
+
+    .c3 {
+        font-weight: bold;
     }
-    </style>
+
+    ul {
+        list-style-type: none;
+        margin: 0;
+        padding: 0;
+        overflow: hidden;
+        background-color: #666;
+        position: fixed;
+        top: 0;
+        width: 100%;
+    }
+
+    li {
+        float: left;
+        border-right: 1px solid #bbb;
+    }
+
+    li a {
+        display: block;
+        color: white;
+        text-align: center;
+        padding: 14px 16px;
+        text-decoration: none;
+        font-size: larger;
+    }
+
+    li a:hover {
+        background-color: #111;
+    }
+
+    .active {
+        background-color: #4CAF50;
+    }
+    p{
+       font-size: large;
+    } 
+</style>
+
 <body>
-    <div class = "page_container">
-        <h1 style="font-size: 50px;"> Final Portfolio </h1>
-        <p style="padding-left: 5rem; padding-right: 5rem;"> 
-            Little bit about me:  Welcome to my portfolio!  I am a senior at Brown studying computer science.  I have a ton of different interests, which can be seen by the wide
-            variety of topics below that I chose as my project themes (laundry, bakeries, healthcare, and a car repairshop being a random smattering of some of them).
+
+    <ul>
+        <li><a href="#home">Home</a></li>
+        <li><a href="#context">Context/Problem</a></li>
+        <li><a href="#research">Research/Feedback</a></li>
+        <li><a href="#design">Design Iterations</a></li>
+        <li><a href="#conc">Conclusions</a></li>
+        <li><a href="#proj">Projects</a></li>
+        <li><a href="man.jpg" target="_blank" >Character</a></li>
+    </ul>
+    <div class="page_container" style="margin-left: 15rem; margin-right: 15rem; padding-top: 2rem;">
+        <div id="home" style="position: relative; top: -50px;"></div>
+        <h1 style="font-size: 50px; text-decoration: underline;"> Final Portfolio </h1>
+        <p style="padding-left: 5rem; padding-right: 5rem;">
+            Welcome to my portfolio! Little bit about me: I am a senior at Brown studying computer science. I have a ton
+            of different interests, which can be seen by the wide
+            variety of topics below that I chose as my project themes (laundry, bakeries, healthcare, and a car
+            repairshop being a random smattering of some of them).
             <br><br>
-            The goal of this portfolio is to portray something called 'character'.  I'm not sure I know what that is or really means.  So, instead of trying to create
-            something fake and artificially cohesive that doesn't represent me, I'm leaving it as a disorganized mess of a wide range of interests and topics because that's much
-            more representative of who I am.  So my 'theme' or 'character' for this portfolio is itself a lack of a cohesive single common theme, because I have way too
+            The goal of this portfolio is to portray something called 'character'. I'm not sure I know what that is or
+            really means. So, instead of trying to create
+            something fake and artificially cohesive that doesn't represent me, I'm leaving it as a disorganized mess of
+            a wide range of interests and topics because that's much
+            more representative of who I am. So my 'theme' or 'character' for this portfolio is itself a lack of a
+            cohesive single common theme, because I have way too
             many interests to pick just one character or just one theme.
         </p>
-        <h2 style="text-align: center;">Context/Problem</h2>
-        <ul style="padding-left: 5rem; padding-right: 5rem;"> 
-            <li>Each project solves a different problem.  </li>
-            <li>Personas-Storyboard solves the problem of how to abstract out a model of the user of an interface given real world observations and interviews of users.  We care about this problem because not every user is the same and if we want to match the user's expectations then we need a model/abstraction to be able to do so. </li>
-            <li>Responsive Redesign solves the problem of how do you make a website readable, clear, user friendly, and have a nice layout when the screensize changes.  We care about this problem because not all devices are the same size.</li>
-            <li>Iterative Design solves the problem of how do we incorporate user feedback to improve upon a product.  We care about this problem because user opinions matter.</li>
-           <li> Development solves the problem of how do we make a website interactive.  We care about this problem because many of the functionality of the modern internet relies on the ability for a website to be intereactive.</li>
-        </ul>
-        <h2 style="text-align: center;">Research/Feedback</h2>
-        <p style="padding-left: 5rem; padding-right: 5rem;">My audience and what they want/think varied from project to project.  The audience for Personas-Storyboard were laundry machine users and designers, for Responsive Redesign it was the car repair shop whose website I redesigned and the users of said shop, for Iterative Design it was both FloatHealth,
-            which is the startup I designed a hi-fi prototype for, as well as users and workers of FloatHealth including sick people and nurses, and for Development it would be the customers of the bakery I created the website for.
-        
-        </p>
-        <h2 style="text-align: center;">Design Iterations </h2>
-        <p style="padding-left: 5rem; padding-right: 5rem;">
-        The only iterative project completed was Iterative Design and the tradeoffs and design decisions are explained within the project itself.</p>
-        
-        <h2 style="text-align: center;">Conclusions </h2>
-        <p style="padding-left: 5rem; padding-right: 5rem;">
-        The biggest lessons, insights, and takeaways that I learned across all four projects were that perfection doesn't exist, everyone is always going to have conflicting opinions
-        with someone else, but incorporating as much feedback as possible into the design is the best path forward!    
-        </p>
-        <section style="background-color:rgb(157, 175, 208);">
-        <h1 style="font-size: 50px;"> Projects </h1>
-       
-        <div style = "display: flex; flex-wrap: wrap; align-items: center; justify-content: center;">
+        <div id="context" style="position: relative; top: -50px; "></div>
+        <h1 style="text-align: center; text-decoration: underline;">Context/Problem</h1>
 
-        <div style="align-content: center;margin: .5rem; "><a style="text-align:center; font-size:2rem; " href="https://tiredlion1234.github.io/Personas-Storyboard/"> <h5>Personas-Storyboard</h5><img style="max-width: 32rem;min-width: 32rem;min-height: 30rem; max-height: 30rem;"class="resp_img" src="./personas.PNG"> </a><p>Interface interaction observations for personas and storyboarding</p></div>
-       <div style="align-content: center;  margin: .5rem;"> <a style="text-align:center; font-size:2rem" href="https://tiredlion1234.github.io/redesign-submission/"> <h5>Responsive Redesign</h5><img style="max-width: 32rem;min-width: 32rem;min-height: 30rem; max-height: 30rem;"class="resp_img" src="./redesign.PNG"> </a><p style="text-align: center;">Redesigning an existing website for dynamic screensizes</p> </div>
-       <div style="align-content: center;  margin: .5rem;">  <a style="text-align:center; font-size:2rem;" href="https://tiredlion1234.github.io/iterative-design/"> <h5>Iterative Design</h5><img style="max-width: 32rem;min-width: 32rem;min-height: 30rem; max-height: 30rem;"class="resp_img" src="./iterative.PNG"> </a><p style="text-align: center;">Iteratively implementing a website for a startup</p></div>
-        <div style="align-content: center;  margin: .5rem; text-align: center;">  <a style="text-align:center; font-size:2rem;" href="https://tiredlion1234.github.io/development/"><h5>Development</h5> <img style="max-width: 32rem;min-width: 32rem;min-height: 30rem; max-height: 30rem;"class="resp_img" src="./development.PNG"> </a><p style="text-align: center;">Building an interactive website</p></div>
-        
-    </div>   
-    </section>
+        <p style="padding-left: 5rem; padding-right: 5rem;">Each project solves a different problem. See the project
+            descriptions for details.</p>
+
+        <div id="research" style="position: relative; top: -50px;"></div>
+        <h1 style="text-align: center; text-decoration: underline;">Research/Feedback</h1>
+        <p style="padding-left: 5rem; padding-right: 5rem;">My audience and what they want/think varied by project. See
+            the project descriptions for details.
+
+        </p>
+        <div id="design" style="position: relative; top: -50px;"></div>
+        <h1 style="text-align: center; text-decoration: underline;">Design Iterations </h1>
+        <p style="padding-left: 5rem; padding-right: 5rem;">
+            The only iterative project completed was Iterative Design. The tradeoffs and design decisions are explained
+            within the project itself.</p>
+        <div id="conc" style="position: relative; top: -50px;"></div>
+        <h1 style="text-align: center; text-decoration: underline;">Conclusions </h1>
+        <p style="padding-left: 5rem; padding-right: 5rem;">
+            The biggest insights and lessons that I learned were that perfection doesn't exist,
+            everyone will have conflicting opinions with someone else, but incorporating as much feedback as possible
+            into the design is the best path forward!
+        </p>
+
     </div>
+    <section style="background-color:rgb(157, 175, 208)">
+        <div id="proj" style="position: relative; top: -30px;"></div>
+        <h1 style="font-size: 50px; text-decoration: underline;"> Projects </h1>
+
+        <div>
+
+            <div
+                style="display: flex; align-items: center; justify-content: center; align-content: center; text-align: center;">
+                <div style=" align-content: center; margin: .5rem; text-align: center;"><a
+                        style=" text-align:center; font-size:2rem; color: black;"
+                        href=" https://tiredlion1234.github.io/Personas-Storyboard/" target="_blank">
+                        <h3>Personas-Storyboard</h3><img
+                            style="max-width: 15rem;min-width: 15rem;min-height: 15rem; max-height: 15rem; align-content: center;align-items: center; justify-content: center;"
+                            class="resp_img" src="./personas.PNG" alt="Picture of Persona">
+                    </a>
+                    <p style="margin-left: 2rem; margin-right: 2rem">Interface interaction observations for personas and storyboarding. This project solves the
+                        problem of how to abstract out a model of the user of an interface given real world observations
+                        and interviews of users. We care about this problem because not every user is the same and if we
+                        want to match the user's expectations then we need a model/abstraction to be able to do so. The
+                        audience was laundry machine users and designers.</p>
+                </div>
+                <div style="align-content: center; margin: .5rem; text-align: center;"> <a
+                        style="text-align:center; font-size:2rem; color: black;"
+                        href="https://tiredlion1234.github.io/redesign-submission/" target="_blank">
+                        <h3>Responsive Redesign</h3><img
+                            style="max-width: 15rem;min-width: 15rem;min-height: 15rem; max-height: 15rem;"
+                            class="resp_img" src="./redesign.PNG" alt="Picture of Redesign Car Repair Shop">
+                    </a>
+                    <p style="margin-left: 2rem; margin-right: 2rem">Redesigning an existing website for dynamic
+                        screensizes. This project
+                        solves the problem of how do you make a website readable, clear, user friendly, and have a nice
+                        layout when the screensize changes. We care about this problem because not all devices are the
+                        same size. The audience was the car repair shop whose website I redesigned and the users of said
+                        shop.</p>
+                </div>
+
+            </div>
+            <div style="display: flex; justify-content: center; align-content: center; text-align: center;">
+                <div style="align-content: center;  margin: .5rem; text-align: center;"> <a
+                        style="text-align:center; font-size:2rem; color: black;"
+                        href="https://tiredlion1234.github.io/iterative-design/" target="_blank">
+                        <h3>Iterative Design</h3><img
+                            style="max-width: 15rem;min-width: 15rem;min-height: 15rem; max-height: 15rem;"
+                            class="resp_img" src="./iterative.PNG" alt="Picture of Float Health Interface">
+                    </a>
+                    <p style="margin-left: 2rem; margin-right: 2rem">Iteratively implementing a website for a startup.
+                        This project solves
+                        the problem of how do we incorporate user feedback to improve upon a product. We care about this
+                        problem because user opinions matter. The audience was both FloatHealth, which is the startup I
+                        designed a hi-fi prototype for, as well as users and workers of FloatHealth, including sick
+                        people and nurses.</p>
+                </div>
+                <div style="align-content: center; margin: .5rem;  text-align: center;"> <a
+                        style="text-align:center; font-size:2rem; color: black;"
+                        href="https://tiredlion1234.github.io/development/" target="_blank">
+                        <h3>Development</h3> <img
+                            style="max-width: 15rem;min-width: 15rem;min-height: 15rem; max-height: 15rem;"
+                            class="resp_img" src="./development.PNG" alt="Picture of My Bakery Website">
+                    </a>
+                    <p style="margin-left: 2rem; margin-right: 2rem">Building an interactive website. This project solves
+                        the problem of
+                        how do we make a website interactive. We care about this problem because many of the
+                        functionality of the modern internet relies on the ability for a website to be intereactive. The
+                        audience was the customers of the bakery I created the website for.</p>
+                </div>
+
+
+            </div>
+        </div>
+
+        
+    </section>
+
 </body>
+
 </html>
